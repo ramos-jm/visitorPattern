@@ -12,10 +12,10 @@ public class TelcoAllowance implements UsagePromo {
     }
 
     @Override
-    public String showAllowance(String telcoName, double promoPrice) {
+    public String showAllowance(String telcoName, double money) {
         Integer dataAllowance = allowanceMap.getOrDefault(telcoName, 0);
         String allowance = new String();
-        allowance += dataAllowance+ "GB of Data by "+ telcoName + " for ₱"+ promoPrice;
+        allowance += dataAllowance+ "GB of Data by "+ telcoName + " for ₱"+ money;
         return allowance;
     }
 }
