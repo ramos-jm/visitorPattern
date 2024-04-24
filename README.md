@@ -34,3 +34,4 @@ public class TelcoPromo {
 
 ## Class Diagram
 
+![visitorPattern](https://github.com/ramos-jm/visitorPattern/assets/127398189/75696a76-d4ac-459d-bfa8-e1799d164fec)
